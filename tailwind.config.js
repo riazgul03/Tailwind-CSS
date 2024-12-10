@@ -7,12 +7,13 @@ module.exports = {
       lg: '1100px'
     },
     extend: {
-      screens: {
-        kt: '600px',
-        md: '800px',
-        lg: '1100px',
-        xl: '1200px'
-      },
+      spacing: {
+        '21': '5rem',
+        '27': '6.5rem',
+        '13': '13px',
+        'px-8': '13px',
+        'px-100': '100px'
+      }
     },
     container: {
       center: true
