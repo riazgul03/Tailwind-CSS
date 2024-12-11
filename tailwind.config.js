@@ -4,8 +4,8 @@ module.exports = {
   theme: {
 
     extend: {
-      spacing: {
-        '200': '200px'
+      fontFamily: {
+        uniquifier: ["Agu Display", 'serif']
       }
     },
     container: {
