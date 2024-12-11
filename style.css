@@ -31,8 +31,4 @@
         @apply bg-green-400; height: theme(spacing.200);
     }
 }
-    @media screen(md){
-    body{
-        @apply bg-pink-300
-    }
-}
+   
