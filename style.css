@@ -27,4 +27,12 @@
     .btn-dark{
         @apply bg-black hover:bg-slate-700 border-slate-950 text-white
     }
+    .custom-container{
+        @apply bg-green-400; height: theme(spacing.200);
+    }
+}
+    @media screen(md){
+    body{
+        @apply bg-pink-300
+    }
 }
