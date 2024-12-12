@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+   
+@layer components{
+    .img-gallery{
+        @apply w-72 rounded border border-blue-300 hover:border-2 hover:border-blue-100 hover:scale-110 transition duration-1000 hover:brightness-125
+    }
+}
